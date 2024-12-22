@@ -12,7 +12,6 @@ LUCI_DEPENDS:=+luci-theme-argon
 
 define Package/$(PKG_NAME)/conffiles
 /etc/config/argon
-/www/luci-static/argon/background
 endef
 
 include $(TOPDIR)/feeds/luci/luci.mk
